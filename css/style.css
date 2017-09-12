@@ -1,0 +1,140 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url('../img/pic.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo {
+    height: 150px;
+    width: auto;
+}
+
+#landing {
+    padding-top: 180px;
+    background: linear-gradient(90deg, #8E0E00, #1F1C18);
+    padding-bottom: 100px;
+}
+
+#landing h1 {
+    color: white;
+    font-size: 5em;
+    font-weight: 200px;
+}
+
+#landing p {
+    font-size: 3em;
+    color: #92FE9D;
+    margin-bottom: 40px;
+}
+
+#landing-btn {
+    font-weight: 300;
+    font-size: 1.8em;
+    background: transparent !important;
+    border: 2px solid #ffffff;
+    margin: 20px;
+}
+
+#img-hdr {
+    height: 200px;
+    width: auto;
+}
+
+#twt {
+    margin-top: 10px;
+    height: 500px !important;
+    overflow: scroll;
+}
+
+#page-cover {
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+#left-menu {
+    float: left;
+    width: 20%;
+    border-right: 1px solid #DDDDDD;
+    padding-right: 15px;
+}
+
+#main-content {
+    float: left;
+    width: 75%;
+    padding-top: 20px;
+}
+
+#social {
+    list-style: disc;
+}
+
+#social-link {
+    list-style: none;
+}
+
+#social-link li {
+    display: inline-block !important;
+}
+
+#social-link li a {
+    display: inline-block;
+    color: #ffffff !important;
+}
+
+#social li {
+    display: inline-block;
+}
+
+#social li a {
+    display: inline-block;
+    color: #fff;
+}
+
+#top {
+    width: 95%;
+    margin: auto;
+    background-color: #D9230F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#top h1,
+.white {
+    color: #fff;
+}
+
+#stream-txt {
+    color: #ffffff !important;
+}
+
+#feedbackForm {
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px)and (orientation: portrait) {
+    #logo {
+        display: block;
+        height: 60px;
+        width: auto;
+    }
+    .navbar-collapse ul li {
+        text-align: center;
+    }
+    #landing {
+        padding-top: 50px;
+    }
+    #landing h1 {
+        font-size: 4em;
+    }
+    #landing p {
+        font-size: 2em;
+    }
+    #img-hdr {
+        display: block;
+    }
+    #landing-btn {
+        display: block;
+    }
+}
